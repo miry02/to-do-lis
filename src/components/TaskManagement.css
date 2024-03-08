@@ -1,0 +1,84 @@
+.task-management-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .task-management-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .task-management-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .task-management-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input[type='text'],
+  .task-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .task-form textarea {
+    resize: vertical;
+  }
+  
+  .task-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .task-form button:hover {
+    background-color: #218838;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .task-list h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .task-list p {
+    margin: 0;
+  }
+  
+  .task-list button {
+    margin-right: 10px;
+  }
+  
