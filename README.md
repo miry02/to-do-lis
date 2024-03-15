@@ -1,3 +1,8 @@
+# Launch app also with Xampp
+ Apache:8080
+ MySql: 3306
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
